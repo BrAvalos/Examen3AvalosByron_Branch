@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "e81d6311-3199-4f25-8421-0f20e5b0e4c9",
+		"name": "Branch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25367931"
+	},
+	"item": [
+		{
+			"name": "localhost:8090/api/v1/branches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/api/v1/branches",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"branches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8090/api/v1/branches",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"123456789\",\r\n  \"code\": \"BANQ123\",\r\n  \"name\": \"BANQUITO\"\r\n  \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/api/v1/branches",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"branches"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
